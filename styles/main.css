@@ -1,0 +1,147 @@
+.hero {
+  font-family: "Roboto", serif;
+  text-align: center;
+  min-height: 800px;
+  background-size: cover;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .hero h1 {
+    line-height: 55px;
+    font-size: 72px; }
+  .hero h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 40px; }
+  .hero.bridge {
+    background-image: url(../img/bridge/bridge_picture.jpg);
+    width: 100%; }
+  .hero.landscape {
+    color: white; }
+
+#intro h1, #intro h5 {
+  text-shadow: 0px, 5px, 5px;
+  color: rgba(0, 0, 0, 0.25); }
+#intro h5 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700; }
+
+.cta {
+  background-color: black;
+  color: white;
+  padding: 0px;
+  width: 180px;
+  font-size: 18px;
+  line-height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+  .cta:hover {
+    background-color: #00CFFF; }
+
+#about {
+  min-height: 0; }
+  #about .left-col {
+    color: #00E2AC;
+    padding: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700; }
+    #about .left-col h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 55px; }
+  #about .right-col {
+    text-align: left;
+    padding: 20px; }
+    #about .right-col h5 {
+      font-size: 24px;
+      line-height: 30px; }
+
+#gallery {
+  background-color: #EEFDF9;
+  padding: 0px;
+  margin: 0px; }
+  #gallery .col-md-4 {
+    overflow: hidden;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px; }
+    #gallery .col-md-4 img {
+      height: 100%;
+      max-width: 390px;
+      max-height: 380px; }
+
+#contact p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  max-width: 740px; }
+
+#social {
+  padding: 20px; }
+  #social a {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    text-decoration: none; }
+  #social img {
+    height: 20px; }
+    #social img:hover {
+      opacity: 0.5; }
+
+#footer {
+  height: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  #footer a {
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 20px; }
+  #footer .footer-item {
+    flex: 1;
+    max-width: 100px; }
+
+.copyright {
+  margin-left: auto;
+  color: #00E2AC; }
+
+@media only screen and (max-width: 480px) {
+  #intro {
+    min-height: 640px; }
+
+  .left-col h2 {
+    font-size: 42px;
+    line-height: 40px; }
+
+  #footer {
+    margin-left: 20px;
+    margin-right: 20px; }
+    #footer h4 {
+      padding-right: 20px; } }
+@media only screen and (max-width: 992px) {
+  .row {
+    width: 100%; }
+
+  .col-md-4 {
+    width: 100%; }
+    .col-md-4 img {
+      width: 100%;
+      max-width: 992px;
+      max-height: 900px; } }
+
+/*# sourceMappingURL=main.css.map */
