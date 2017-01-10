@@ -1,4 +1,5 @@
 $seafoam-greenish: #00E2AC;
+$light-blue: #00CFFF;
 
 .hero {
   font-family: "Roboto", serif;
@@ -53,7 +54,7 @@ $seafoam-greenish: #00E2AC;
   border-radius: 4px;
   cursor: pointer;
   &:hover {
-    background-color: #00CFFF;
+    background-color: $light-blue;
   }
 }
 
@@ -150,6 +151,79 @@ $seafoam-greenish: #00E2AC;
 .copyright {
   margin-left: auto;
   color: $seafoam-greenish;
+}
+
+#sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 0px;
+  height: 100%;
+  padding-top: 10px;
+  font-family: "Roboto", serif;
+  color: white;
+  background-color: black;
+  z-index: 2;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 4px;
+    padding: 0px;
+  }
+  a {
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  &.open {
+    width: 320px;
+  }
+  .sidebar-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#close-btn {
+  margin-left: 30px;
+  margin-top: 10px;
+  align-self: flex-start;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+  img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+#hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  height: 34px;
+  width: 40px;
+  left: 30px;
+  top: 20px;
+  border-radius: 4px;
+  background-color: black;
+  z-index: 1;
+  &:hover {
+    background-color: $light-blue;
+  }
+  img {
+    height: 30px;
+    width: 30px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
