@@ -5,11 +5,27 @@
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:100,700" />
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="scripts/app.js"></script>
   </head>
 
-  <body>
-
+  <body class="js-menu-close">
+    <div id="sidebar-wrapper" class="js-menu-open">
+      <h2>Spike</h2>
+      <h2>Spiegal</h2>
+      <div class="sidebar-links">
+        <div id="clos-btn">
+          <img src="img/icons/x.svg"/>
+        </div>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
     <div id="intro" class="container-fluid hero landscape">
+      <div id="hamburger" class="js-menu-open">
+        <img src="img/icons/menu.svg"/>
+      </div>
       <h1>Spike Spiegal</h1>
       <h5>Freelance Photographer</h5>
       <a href="#gallery"><button type="button" class="cta">See More</button></a>
@@ -21,7 +37,7 @@
           <h2>I'm a <br> self-taught photographer with a passion for travel and design</h2>
         </div>
         <div class="col-md-6 right-col">
-          <h5>I was born in Cape Town, South Africa and moved around a lot as a kid. To keep me distracted, my parents gave me a camera. Since then, I look at the world through a lens. I've visited over 30 countries and taken almost one quarter of a million photographs, and I feel like I'm just getting started. From landscapes to personal portraits and exciting scenes, I love being able to capture a moment and share it with others. Join me on my journey!</h5>
+          <h5>I was born in <a href="https://www.google.com/maps/place/Cape+Town,+South+Africa" target="_blank">Cape Town, South Africa</a> and moved around a lot as a kid. To keep me distracted, my parents gave me a camera. Since then, I look at the world through a lens. I've visited over 30 countries and taken almost one quarter of a million photographs, and I feel like I'm just getting started. From landscapes to personal portraits and exciting scenes, I love being able to capture a moment and share it with others. Join me on my journey!</h5>
         </div>
       </div>
     </div>
